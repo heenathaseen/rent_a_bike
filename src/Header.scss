@@ -1,0 +1,33 @@
+.header{
+    color: white;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .left{
+        margin: 40px 0px 0px 100px;
+
+       i{font-size: 20px;
+           padding-right: 30px;
+       }
+    }
+    .center{
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    .right{
+       
+        margin: 40px 0px 0px 100px;
+        i{
+            padding-right: 30px; 
+            padding-left: 30px;
+            font-size: 20px;
+        }
+        img{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;   
+          
+          }
+    }
+
+}
