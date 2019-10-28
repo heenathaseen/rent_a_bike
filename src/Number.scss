@@ -1,0 +1,27 @@
+.numbers{
+    background:linear-gradient(0deg,rgba(37, 67, 75, 0.9),rgba(21, 52, 56, 0.9)),url('./awbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    height: 500px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+  
+    .num1{
+        margin: 100px 70px;
+        i{
+            font-size: 100px;
+            color: green;
+        }
+        h1{
+            font-size: 50px;
+
+        }
+        h3{margin-top: 0px;
+            text-transform: uppercase;
+        }
+
+
+    }
+}

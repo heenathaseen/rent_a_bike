@@ -1,0 +1,57 @@
+.most{
+    margin: 100px 200px;
+    h1{
+        color: rgba(37, 67, 75, 0.9);
+        text-transform: uppercase;
+    }
+    .interesting{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        .one{
+            img{
+                width:250px;
+                height:300px;
+            }
+        }
+        .two{
+            color:white;
+            background-color:rgba(42, 126, 150, 0.9);
+            padding-top: 30px;
+            text-align: center;
+            h3{
+                text-transform:uppercase;
+            }
+        }
+        .three{
+            img{
+                width:250px;
+                height:300px;
+            }
+        }
+         .four{
+            background-color:rgba(37, 67, 75, 0.9);
+            color: white;
+            padding-top: 30px;
+           
+            p{
+                padding: 10px 10px;
+                span{
+                    padding-right: 10px;
+                }
+            }
+            h4{
+               
+                border: 1px solid green;
+                background: green;
+                border-width: 10px;
+                margin: 0px 20px;
+                text-align: center;
+                text-transform:uppercase;
+
+
+
+            }
+         }
+
+    }
+}

@@ -1,0 +1,30 @@
+.service{
+    background:linear-gradient(0deg,rgba(37, 67, 75, 0.9),rgba(21, 52, 56, 0.9)),url('./bgservices.jpg');
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    height: 500px;
+    color: white;
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .service-grid{
+        margin: 150px 100px 0px 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        .services{
+            h1{
+                text-transform: uppercase;  
+            }
+            i{margin-left: 100px;
+                color:green;
+                font-size: 50px;
+
+            }
+        }
+    }
+
+   
+
+}

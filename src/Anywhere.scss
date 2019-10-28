@@ -1,0 +1,32 @@
+.anywhere{
+    background:linear-gradient(0deg,rgba(37, 67, 75, 0.9),rgba(21, 52, 56, 0.9)),url('./awbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    height: 400px;
+    color: white;
+    padding-left: 200px;
+    padding-top: 150px;
+   
+    h1{
+        font-size: 50px;
+        text-transform: uppercase;
+        span{
+            color: green;
+        }
+    }
+    p{
+        padding-top: 50px;
+        padding-right: 500px;
+
+
+    }
+    h4{
+        border: 2px solid green;
+margin-right: 1000px;
+text-align: center;
+padding: 5px;
+text-transform: uppercase;
+        
+    }
+
+}
