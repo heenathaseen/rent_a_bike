@@ -1,0 +1,18 @@
+.footertwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background:linear-gradient(0deg,rgba(37, 67, 75, 0.9),rgba(21, 52, 56, 0.9));
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    padding: 10px 0px 0px 100px;
+    
+    color: white;
+    h3{
+       text-transform: uppercase;
+   }
+   i{
+       font-size: 40px;
+    margin-left: 50px;
+   }
+}

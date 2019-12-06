@@ -1,0 +1,20 @@
+.follow{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+   
+    background:linear-gradient(0deg,rgba(37, 67, 75, 0.9),rgba(21, 52, 56, 0.9));
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    padding-left: 200px;
+    color: white;
+    span{
+        color: green;
+    }
+    i{
+        font-size: 40px;
+        padding-right: 30px;
+       
+
+    
+    }
+}

@@ -14,6 +14,8 @@ import Gallery from './Gallery';
 import Customers from './Customers';
 import Typeemail from './Typeemail';
 import Footerone from './Footerone';
+import Footertwo from './Footertwo';
+import Follow from './Follow';
 
 const App = () => (
   <div>
@@ -29,6 +31,8 @@ const App = () => (
     <Customers />
     <Typeemail />
     <Footerone />
+    <Footertwo />
+    <Follow />
 
   </div>
 );
