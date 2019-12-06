@@ -12,11 +12,13 @@ import Latestnews from './Latestnews';
 import Numbers from './Numbers';
 import Gallery from './Gallery';
 import Customers from './Customers';
+import Typeemail from './Typeemail';
+import Footerone from './Footerone';
 
 const App = () => (
   <div>
     <Hs />
-    <Anybike />
+
     <Service />
     <Mostinteresting />
     <Anywhere />
@@ -25,6 +27,8 @@ const App = () => (
     <Numbers />
     <Gallery />
     <Customers />
+    <Typeemail />
+    <Footerone />
 
   </div>
 );
